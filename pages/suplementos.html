@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JGFitness</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <!-- google fonts -->
     <link rel="shortcut icon" href="../imagenes/jgfitness.jpg" type="image/x-icon">
@@ -19,40 +20,115 @@
 <!-- empieza header -->
 <body>
     <header>
-        <h1>JGFitness</h1>
-           <nav>
-              <ul>
-                  <a href="../inicio.html">inicio</a>
-                  <a href="./sobrenosotros.html">sobre nosotros</a>
-                  <a href="./suplementos.html">suplementos</a>
-                  <a href="./nuestrolocal.html">nuestro local</a>
-                  <a href="./contacto.html">contacto</a>
-                  <input type="text">
-              </ul>
+        <h1 class="text-start">JGFitness</h1>
+        <nav>
+            <div class="container text-center">
+              <div class="row">
+                  <div class="col-lg-12 col-sm-12">
+                        <a href="../index.html">Inicio</a>
+                        <a href="./pages/sobrenosotros.html">Sobre nosotros</a>
+                        <a href="./pages/suplementos.html">Suplementos</a>
+                        <a href="./pages/nuestrolocal.html">Nuestro local</a>
+                        <a href="./pages/contacto.html">Contacto</a>
+                  </div>  
+              </div>
+            </div> 
            </nav>
-       </header>
+           <nav class="navbar navbar-mine">
+            <div class="container-fluid">
+              <a class="navbar-brand"></a>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+            </div>
+          </nav>
+    </header>
 <!-- termina header -->
     
-<div>
-    <h2>Proteina</h2>
-    <img src="../imagenes/sin sabor (1).jpg" alt="proteina de alta calidad sin sabor"><p>$20.000</p>
-    <img src="../imagenes/chocolate (2).png" alt="proteina de alta calidad de chcolate"><p>$35.000</p>
-    <img src="../imagenes/cookies and cream.jpg" alt="proteina de alta calidad de cookies anda cream "><p>$35.000</p>
-    <h2>Barritas</h2>
-    <img src="../imagenes/mani con chocolate.jpg" alt="barrita de proteina low carb de mani con chocolate"><p>$800</p>
-    <img src="../imagenes/vainilla (1).jpg" alt="barrita de proteina low sugar de vainilla "><p>$800</p>
-    <h2>Colageno</h2>
-    <img src="../imagenes/colageno (1) (1).jpg" alt="colageno para la piel de sabor mango"><p>$8.000</p>
-    <img src="../imagenes/rosado.jpg" alt="colageno para la piel con sabor a limonada rosada"><p>$8.000</p>
-    <img src="../imagenes/sandia.jpg" alt="colageno para la piel con sabor a sandia"><p>$8.000</p>
+<div class="container-fluid text-center">
+   <div class="row align-items-start">
+      <h2 class="p-5 p-5-mine">Proteinas</h2>
+      <div class="col-lg-2 col-md-2 col col-sm-12">
+         <img src="../imagenes/sin sabor (1).jpg" class="img-fluid" alt="proteina de alta calidad sin sabor"><p class="h3">$20.000</p>
+      </div>
+      <div class="col-lg-7 col-md-4 col-sm-12">
+          <img src="../imagenes/chocolate (2).png" class="img-fluid" alt="proteina de alta calidad de chocolate"><p class="h3">$35.000</p>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-12">
+          <img src="../imagenes/cookies and cream.jpg" class="img-fluid" alt="proteina de alta calidad de cookies anda cream "><p class="h3">$35.000</p>
+      </div>
+       <h2 class="p-5 p-5-seg">Barritas</h2>
+       <div class="col-lg-6 col-sm-12">
+          <img src="../imagenes/mani con chocolate.jpg" class="" alt="barrita de proteina low carb de mani con chocolate"><p class="h3">$800</p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+         <img src="../imagenes/vainilla (1).jpg" class="img-fluid" alt="barrita de proteina low sugar de vainilla "><p class="h3">$800</p>
+        </div>
+      <h2 class="p-5 p-5-ter">Colageno</h2>
+      <div class="col-lg-4 col-sm-12">
+          <img src="../imagenes/colageno (1) (1).jpg" class="img-fluid" alt="colageno para la piel de sabor mango"><p class="h3">$8.000</p>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+         <img src="../imagenes/rosado.jpg" class="img-fluid" alt="colageno para la piel con sabor a limonada rosada"><p class="h3">$8.000</p>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+         <img src="../imagenes/sandia.jpg" class="img-fluid p-3" alt="colageno para la piel con sabor a sandia"><p class="h3">$8.000</p>
+      </div>
+   </div>
 </div>
+
 <!-- empieza footer -->
 <footer>
-    <img src="../imagenes/whatsapp.png" alt="logo de whatsapp"><p>+54 9 3516014329</p>
-    <img src="../imagenes/telefono (1).png" alt="logo de telefono"><p> 3516014329</p>
-    <img src="../imagenes/instagram.png" alt="logo de instagram"><p>JGFitness</p>
-    <img src="../imagenes/facebook (1).png" alt="logo de facebook"><p>JGFitness</p>
-</footer>
+    <div class="container-fluid text-start">
+      <div class="row p-3 bg-dark text-white">
+          <div class="d-flex align-items-center mb-2">
+              <div class="flex-shrink-0">
+                 <img src="../imagenes/whatsapp.png" class="rounded-2" alt="logo de whatsapp">
+               </div>
+               <div class="flex-grow-1 ms-3">
+                  <p class="h5 mb-1 ">Whatsapp</p>
+                   +54 9 3516014329
+                </div>
+           </div>
+  
+           <div class="d-flex align-items-center mb-2">
+               <div class="flex-shrink-0">
+                  <img src="../imagenes/telefono (1).png" class="rounded-2" alt="logo de telefono">
+                </div>
+               <div class="flex-grow-1 ms-3">
+                  <p class="h5 mb-1">Telefono</p>
+                  3516014329
+                </div>
+           </div>
+     
+            <div class="d-flex align-items-center mb-2">
+               <div class="flex-shrink-0">
+                  <img src="../imagenes/instagram.png" class="rounded-2" alt="logo de instagram">
+                </div>
+              <div class="flex-grow-1 ms-3">
+                 <p class="h5 mb-1">Instagram</p>
+                  JGFitness
+               </div>
+             </div>
+      
+          <div class="d-flex align-items-center mb-2">
+               <div class="flex-shrink-0">
+                  <img src="../imagenes/facebook (1).png" class="rounded-2" alt="logo de facebook">
+               </div>
+               <div class="flex-grow-1 ms-3">
+                 <p class="h5 mb-1">Facebook</p>
+                 JGFitness
+               </div>
+           </div>
+           <div class="col-xs-12"> 
+             <p class="text-white text-end">Copyright- All rights reserved 2023</p>
+           </div>
+       </div>
+      </div>
+  </footer>
 <!-- termina footer -->
+<!-- js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
