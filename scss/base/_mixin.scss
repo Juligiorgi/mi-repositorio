@@ -1,0 +1,9 @@
+@mixin tamaño ($s-size){
+    font-size: 30px;
+}
+@mixin decoracion ($d-deco){
+    text-decoration: underline;
+    text-align: center;
+}
+
+

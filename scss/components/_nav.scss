@@ -1,0 +1,13 @@
+nav{
+   .oracionllamado{
+     @include decoracion(center);
+     padding: $pad-g;
+     }
+}
+iframe{
+    @extend %nav-map;
+}
+.localizacion{
+    font-family: $font4;
+    padding: $pad-h;
+}

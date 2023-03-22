@@ -1,0 +1,23 @@
+$posicion:(
+    fl-start: flex-start,
+    fl-end: flex-end,
+    s-around: space-around,
+    s-between: space-between,
+    s-evenly: space-evenly,
+    cent: center,
+);
+
+//color
+$colors:(
+    color1: rgba(149, 137, 137, 0.942),
+    color2:white,
+    color3:black,
+    color4: rgb(183, 105, 77),
+    color5: rgb(8, 99, 34)
+);
+$margen:(
+    margen1:top,
+    margen2:left,
+    margen3:bottom,
+);
+

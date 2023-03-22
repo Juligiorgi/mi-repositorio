@@ -1,0 +1,44 @@
+div {
+   a{
+    color:map-get($colors,color3);
+    position: map-get($posicion, cent);
+    font-family: $font1;
+    font-size: $fnt20;
+    padding: $pad-b;
+   } 
+}
+.p-5-mine{
+   @include decoracion (underline);
+   font-family: $font2;
+   font-size: $fnt50;
+}
+.p-5-seg{
+   @include decoracion (underline);
+   font-family: $font2;
+   font-size: $fnt50;
+}
+.p-5-ter{
+   @include decoracion (underline);
+   font-family: $font2;
+   font-size: $fnt50;
+}
+div img{
+   @extend %contac-tel;
+   padding: $pad;
+}
+.tel{
+   font-size: $fnt20;
+   padding: $pad;
+}
+.was{
+   font-size: $fnt20;
+   padding: $pad;
+}
+.fa{
+   font-size: $fnt20;
+   padding: $pad;
+}
+.in{
+   font-size: $fnt20;
+   padding: $pad;
+}

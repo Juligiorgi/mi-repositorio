@@ -1,65 +1,127 @@
-/*font-family: 'DM Serif Display', serif;
-font-family: 'Roboto Slab', serif;
-font-family: 'M PLUS 1p', sans-serif;*/
+iframe {
+  position: relative;
+  align-items: start;
+  width: 80%;
+  height: 500px;
+  margin-left: 15px;
+}
 
+div img {
+  text-align: start;
+  margin: 10px;
+}
 
-header nav a{
-    color: rgb(183, 105, 77);
-    padding: 20px;
-    font-weight: 500;
-    font-size: larger;
+main form {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  margin: 10px;
+}
 
+header h1 {
+  background-color: black;
+  font-family: "Roboto Slab", serif;
+  color: white;
+  padding: 20px 25px;
+  font-size: 50px;
+}
+
+div a {
+  color: black;
+  position: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 20px;
+  padding: 30px 45px;
+}
+
+.p-5-mine {
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 50px;
+}
+
+.p-5-seg {
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 50px;
+}
+
+.p-5-ter {
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  font-size: 50px;
+}
+
+div img {
+  padding: 5px;
+}
+
+.tel {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.was {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.fa {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.in {
+  font-size: 20px;
+  padding: 5px;
 }
 
 body {
-    background-color: rgba(243, 233, 233, 0.942);
-}
-.navbar-mine{
-    padding-inline-end: 10px;
-}
-div img{
-    padding: 3%;
+  background-color: rgba(149, 137, 137, 0.942);
 }
 
-h1{
-    color: white;
-    font-family: 'DM Serif Display', serif;
-    padding: 10px;
-    padding-left: 2%;
-    background-color: black;
+h1 {
+  background-color: black;
+  font-family: "Roboto Slab", serif;
+  color: white;
+  padding: 20px 25px;
+  font-size: 50px;
 }
-h2{
-    font-family: 'DM Serif Display', serif;
-    font-weight: 200;
-    font-size: 200;
-   
+
+main h2 {
+  font-size: 30px;
+  text-decoration: underline;
+  text-align: center;
+  padding: 10px;
+  color: black;
 }
-h3{
-    color: rgb(216, 167, 107);
-    text-decoration: underline;
-    ;
-    
+
+.fotogrupal {
+  padding: 50px 55px;
 }
-p{
-    font-family: 'Roboto Slab', serif;
-    font-size: 150;
-  
+
+.texto-mine {
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 30px;
+  font-weight: 10px;
 }
-.text-center-mine{
-    text-decoration: underline;
+
+main form {
+  padding: 5px;
 }
-.p-5-mine{
-    text-decoration: underline;
-    font-family: 'Roboto Slab', serif;
-    font-size: 300%;
+
+nav .oracionllamado {
+  text-decoration: underline;
+  text-align: center;
+  padding: 50px 55px;
 }
-.p-5-seg{
-    text-decoration: underline;
-    font-family: 'Roboto Slab', serif;
-    font-size: 300%;
+
+.localizacion {
+  font-family: "Crimson Text", serif;
+  padding: 20px 25px;
 }
-.p-5-ter{
-   text-decoration: underline;
-   font-family: 'Roboto Slab', serif;
-   font-size: 300%;
-}
+
+/*# sourceMappingURL=style.css.map */

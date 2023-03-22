@@ -1,0 +1,18 @@
+main h2{
+    @include tamaño (30px);
+    @include decoracion (underline);
+    padding: 10px;
+    color: map-get($colors, color3);
+}
+.fotogrupal{
+    padding: $pad-g;
+   }
+.texto-mine{
+    font-family: $font3;
+    font-size: $fnt30;
+    font-weight: $w-ft1;
+}
+main form{
+    @extend %form-lab;
+    padding: $pad;
+}
