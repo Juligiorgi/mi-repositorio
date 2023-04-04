@@ -12,10 +12,18 @@ div img {
 }
 
 main form {
-  width: 100%;
-  height: 100%;
-  padding-top: 20px;
+  width: 500%;
+  height: 500%;
+  padding-top: 40px;
   margin: 10px;
+}
+
+.NOM-MINE {
+  padding: 15px;
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 25px;
+  font-weight: 500px;
 }
 
 header h1 {
@@ -56,27 +64,37 @@ div a {
 }
 
 div img {
-  padding: 5px;
+  padding: 9px;
 }
 
 .tel {
   font-size: 20px;
-  padding: 5px;
+  padding: 9px;
+  margin-left: 25px;
 }
 
 .was {
   font-size: 20px;
-  padding: 5px;
+  padding: 9px;
+  margin-left: 25px;
 }
 
 .fa {
   font-size: 20px;
-  padding: 5px;
+  padding: 9px;
+  margin-left: 25px;
 }
 
 .in {
   font-size: 20px;
-  padding: 5px;
+  padding: 9px;
+  margin-left: 25px;
+}
+
+.bar-mine {
+  text-decoration: underline;
+  text-align: center;
+  padding: 9px;
 }
 
 body {
@@ -110,7 +128,8 @@ main h2 {
 }
 
 main form {
-  padding: 5px;
+  padding: 9px;
+  margin-block-end: 100px;
 }
 
 nav .oracionllamado {
@@ -122,6 +141,10 @@ nav .oracionllamado {
 .localizacion {
   font-family: "Crimson Text", serif;
   padding: 20px 25px;
+}
+
+form .deco {
+  font-family: "Roboto Slab", serif;
 }
 
 /*# sourceMappingURL=style.css.map */

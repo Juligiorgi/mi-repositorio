@@ -14,5 +14,6 @@ main h2{
 }
 main form{
     @extend %form-lab;
-    padding: $pad;
+    padding: $pad1;
+    margin-block-end: 100px;
 }

@@ -24,21 +24,29 @@ div {
 }
 div img{
    @extend %contac-tel;
-   padding: $pad;
+   padding: $pad1;
 }
 .tel{
    font-size: $fnt20;
-   padding: $pad;
+   padding: $pad1;
+   margin-left: 25px;
 }
 .was{
    font-size: $fnt20;
-   padding: $pad;
+   padding: $pad1;
+   margin-left: 25px;
 }
 .fa{
    font-size: $fnt20;
-   padding: $pad;
+   padding: $pad1;
+   margin-left: 25px;
 }
 .in{
    font-size: $fnt20;
-   padding: $pad;
+   padding: $pad1;
+   margin-left: 25px;
+}
+.bar-mine{
+   @include decoracion(underline);
+   padding: $pad1;
 }

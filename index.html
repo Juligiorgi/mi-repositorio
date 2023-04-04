@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./imagenes/jgfitness.jpg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/style.css">
     <meta name="description" content="suplemtos deportivos con gran variedad de productos y para diferentes objetivos como ganancia muscular, perdida de grasa, fortalecimiento de huesos gracias al colageno que mejora la piel, ulas y pelo.
     Estos productos tienen venta libe"> 
@@ -24,32 +26,40 @@
 
 <!-- empieza header -->
 <body>
+<header>
   <h1 class="text-start"> JGFitness</h1>
- <header>
-  <nav>
-    <div class="container text-center back">
-      <div class="row">
-          <div class="col-lg-12">
-                <a href="./index.html">Inicio</a>
-                <a href="./pages/sobrenosotros.html">Sobre nosotros</a>
-                <a href="./pages/suplementos.html">Suplementos</a>
-                <a href="./pages/nuestrolocal.html">Nuestro local</a>
-                <a href="./pages/contacto.html">Contacto</a>
-          </div>  
+  <nav class="navbar navbar-expand-lg bg-pink">
+    <div class="navbar-brand">
+      <button class="navbar-toggler m-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 bar-mine">
+          <li class="nav-item">
+            <a class="nav-link active m-2 p-1 animate__animated animate__bounceIn" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active m-2 p-1 animate__animated animate__bounceIn" aria-current="page" href="./pages/sobrenosotros.html">Sobre Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active m-2 p-1 animate__animated animate__bounceIn" href="./pages/suplementos.html">Suplementos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active m-2 p-1 animate__animated animate__bounceIn" href="./pages/nuestrolocal.html">Nuestro Local</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active m-2 p-1 animate__animated animate__bounceIn" href="./pages/contacto.html">Contactos</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" aria-label="Search">
+          <button class="btn btn-dark deco" type="submit">Search</button>
+        </form>
       </div>
-    </div> 
-   </nav>
-   <nav class="navbar navbar-mine">
-    <div class="container-fluid">
-      <a class="navbar-brand"></a>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
-      </form>
     </div>
   </nav>
   <div>
-    <img src="./imagenes/descuento(1).png" class="img-fluid rounded mx-auto d-block" alt="35% de descuento en suplementos ">
+    <img src="./imagenes/descuento(1).png" class="img-fluid rounded mx-auto d-block animate__animated animate__zoomIn" alt="35% de descuento en suplementos ">
         <div class=" container-fluid text-center">
          <h2>"Amate y ten una vida saludable"</h2>
         </div>
