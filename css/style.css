@@ -71,30 +71,41 @@ div img {
   font-size: 20px;
   padding: 9px;
   margin-left: 25px;
+  color: black;
 }
 
 .was {
   font-size: 20px;
   padding: 9px;
   margin-left: 25px;
+  color: black;
 }
 
 .fa {
   font-size: 20px;
   padding: 9px;
   margin-left: 25px;
+  color: black;
 }
 
 .in {
   font-size: 20px;
   padding: 9px;
   margin-left: 25px;
+  color: black;
 }
 
 .bar-mine {
   text-decoration: underline;
   text-align: center;
   padding: 9px;
+}
+
+.let-cont {
+  color: black;
+  font-family: "Crimson Text", serif;
+  font-size: 30px;
+  padding: 12px;
 }
 
 body {
@@ -145,6 +156,12 @@ nav .oracionllamado {
 
 form .deco {
   font-family: "Roboto Slab", serif;
+}
+
+.NOM-MINE {
+  color: black;
+  font-family: "M PLUS 1p", sans-serif;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

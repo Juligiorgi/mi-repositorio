@@ -30,23 +30,33 @@ div img{
    font-size: $fnt20;
    padding: $pad1;
    margin-left: 25px;
+   color: map-get($colors, color3);
 }
 .was{
    font-size: $fnt20;
    padding: $pad1;
    margin-left: 25px;
+   color: map-get($colors, color3);
 }
 .fa{
    font-size: $fnt20;
    padding: $pad1;
    margin-left: 25px;
+   color: map-get($colors, color3);
 }
 .in{
    font-size: $fnt20;
    padding: $pad1;
    margin-left: 25px;
+   color: map-get($colors, color3);
 }
 .bar-mine{
    @include decoracion(underline);
    padding: $pad1;
+}
+.let-cont{
+   color: map-get($colors, color3);
+   font-family: $font4;
+   font-size: $fnt30;
+   padding: $pad2;
 }

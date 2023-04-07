@@ -5,4 +5,7 @@ form{
 }
 .NOM-MINE{
     @extend %nom-mine;
+    color: map-get($colors, color3);
+    font-family: $font3;
+    font-size: $fnt20;
 }    
